@@ -1,0 +1,251 @@
+body{
+    background: #A3C47A;
+}
+h1{
+    color:#000000;
+	font-family: Arial;
+	font-size: 50px;
+	text-align: center;
+}
+p{
+    color:#0A0801;
+	font-family: Arial;
+	font-size: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+table{
+	color:#0A0801;
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	border: 2;
+	width: 90%;
+	border-color: #E7D715;
+	border-style: solid;
+	margin-left: auto; 
+	margin-right: auto;
+	border-collapse: collapse;
+}
+tr{
+	color:#0A0801;
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	background-color: #8A7723;
+	border-color: #E7D715;
+	border-style: solid;
+}
+th{
+	color:#79D06A;
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	background-color: #8A7723;
+	border-color: #E7D715;
+	border-style: solid;
+}
+td{
+	color:#C8971D;
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	background-color: #8A7723;
+	border-color: #E7D715;
+	border-style: solid;
+}
+/*esta clase es para quitar el borde y fondo de las tablas*/
+.sin{
+   border-style: transparet;
+   border: 0;
+   background-color: transparent;
+}
+.img{
+    width: 200px;
+	height: 100px;
+}
+.inc{
+    width: 150px;
+	height: 150px;
+}
+.glc{
+    width: 300px;
+	height: 300px;
+}
+font{
+	color: white; 
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+/*el codigo debajo de este mensaje tiene la funcion de darle fuente a los creditos finales*/
+.fcrt{
+	color: white; 
+	font-family: Arial;
+	font-size: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+/*el codigo debajo de este mensaje tiene la funcion de darle tamano a las imagenes de los productos dentro de la tabla*/
+.img2{
+    width: 300px;
+	height: 250px;
+}
+/*el codigo debajo de este mensaje tiene la funcion de poner color a la tabla de contacto, al igual ponerle color a sus margenes*/
+.table1{
+	color:white;
+	font-family: Arial;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	border: 1;
+	width: 50%;
+	border-color: white;
+	border-style: solid;
+	margin-left: auto; 
+	margin-right: auto;
+	border-collapse: collapse;
+	background: #1D8348 ;
+}
+.font1{
+	color: white; 
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+	position: center;
+	font-weight: bold;
+	font-style: italic;
+}
+div{
+   border: 10;
+   border-color: #EAFAF1;
+   border-style: solid;
+}
+
+div.primercaja{
+   border: 10;
+   border-color: #D0EBD0;
+   border-style: solid;
+   background-color: #D0EBD0;
+}
+div.segundacaja{
+   border: 10;
+   border-color: #D4EFDF;
+   border-style: solid;
+   background-color: #D4EFDF;
+}
+div.tercercaja{
+   border: 1;
+   border-color: #ABD8AA;
+   border-style: solid;
+   background-color: #ABD8AA;
+}
+div.cuartacaja{
+   border: 10;
+   border-color: #83B282;
+   border-style: solid;
+   background-color: #83B282;
+}
+.caja{
+     height: 300px;
+	 width: 250px;
+	 background: #;
+	 border: 1px solid #;
+	 margin: 5px;
+	 color: black;
+	 text-align: center;
+	 font-family: "Lato", sans-serif;
+	 display:inline-block;
+}
+.caja:hover{
+    /* Agregar sombra al div*/
+	/*       x y radio color*/
+    box-shadow: 0 0 10px red;
+	/* Cambia la escala de tamaño de la caja*/
+	transform: scale(1.3);
+}
+.caja-texto{
+    padding-bottom:5px;
+	padding-top:2px;
+	font-size:30px;
+	color: black;
+	font-weight: bold;
+}
+.texto-adicional{
+    padding-top:5px;
+	font-size:25px;
+}
+@font-face{
+    font-family:"mifuente";
+	src: url(TASTY-DONUTS.otf);
+}
+#fuente-google{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#fuente-TASTY{
+    font-family:"mifuente";
+}
+.div1{
+	background: #ECF8ED;
+	height: 180px;
+	width: 450px;
+	display:inline-block;
+	transition: all 1s;
+	transition-timing-function: ease;
+}
+.div1:hover{
+	width:900px
+}
+.div2{
+	background: #E1F5A9;
+	height: 180px;
+	width: 450px;
+	display:inline-block;
+	transition: all 1s;
+	transition-timing-function: ease;
+}
+.div2:hover{
+	width:900px
+}
+.div3{
+	background: #BCF5A9;
+	height: 180px;
+	width: 450px;
+	display:inline-block;
+	transition: all 1s;
+	transition-timing-function: ease;
+}
+.div3:hover{
+	width:900px
+}
+.div4{
+	height: 180px;
+	width: 450px;
+	display:inline-block;
+	transition: all 1s;
+	transition-timing-function: ease;
+	background: #A9F5D0;
+}
+.div4:hover{
+	width:900px
+	
+}
+.contenedor{
+	display:flex
+}
+
+
+
+
+
+
+
+
+
